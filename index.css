@@ -1,0 +1,196 @@
+.header{
+    background-color: black;
+}
+#id1{
+    color: white;
+}
+.nav-link{
+    color:white;
+    font-size:20px;
+}
+.nav-link:hover{
+    background-color: brown;
+
+}
+
+
+i.fa-solid{
+    font-size: 60px;
+    color: blue;
+}
+
+.mid{
+    text-align: center;
+}
+
+.section{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* this is for line under heading */
+/* .section h2::after{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: brown;
+    margin: "auto";
+} */
+
+.four{
+    background-color: black;
+    color: aqua;
+    
+}
+.any{
+    display: flex;
+   
+    position: relative;
+    justify-content: space-evenly;
+    
+}
+.any2{
+    display: flex;
+   
+    position: relative;
+    justify-content: space-evenly;  
+    padding: 40px;
+}
+
+
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1300px;
+  }
+  
+  .gallery-item {
+    background: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+    width: calc(33.333% - 20px);
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .gallery-item-info {
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    padding: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .gallery-item:hover .gallery-item-info {
+    opacity: 1;
+  }
+  
+  .gallery-item-info h3 {
+    margin: 0 0 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .gallery-item {
+      width: calc(50% - 20px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .gallery-item {
+      width: 100%;
+    }
+  }
+
+  .box{
+    
+    height:300px;
+    width:23%;
+    background-color: white;
+    padding: 0px 0px 0px;
+    margin-top: 15px;
+
+}
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:white ;
+    flex-wrap:wrap ;
+    padding-bottom: 3vh;
+    
+
+}
+.box-img{
+    height:300px;
+    background-size: cover;
+    /* background-color: beige; */
+   
+}
+
+.site-footer {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.footer-container div {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.footer-container h3 {
+  margin-bottom: 15px;
+}
+
+.footer-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-container ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-container a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-social a {
+  margin-right: 10px;
+}
+
+@media (max-width: 600px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
